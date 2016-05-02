@@ -4,7 +4,25 @@ timeCreated: 1457546605
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: DoorFrame02
+    100002: DoorL02
+    100004: DoorR02
+    100006: //RootNode
+    400000: DoorFrame02
+    400002: DoorL02
+    400004: DoorR02
+    400006: //RootNode
+    2300000: DoorFrame02
+    2300002: DoorL02
+    2300004: DoorR02
+    3300000: DoorFrame02
+    3300002: DoorL02
+    3300004: DoorR02
+    4300000: DoorFrame02
+    4300002: DoorR02
+    4300004: DoorL02
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
