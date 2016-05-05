@@ -60,6 +60,8 @@ Assets/Scripts/Crane.cs
 Assets/Scripts/Door1.cs
 Assets/Scripts/Engine.cs
 Assets/Scripts/SnappingCrane.cs
+Assets/Scripts/WindSound.cs
+Assets/Scripts/ZombieSound.cs
 Assets/Scripts/bb8.cs
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
