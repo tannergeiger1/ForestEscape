@@ -6,10 +6,15 @@ public class SnappingCrane : MonoBehaviour {
 	 // Reference to the animator bool to trigger the state.
 
 	private Animator anim;		// Reference to the animator component.
-	//private GameObject player;
+	private GameObject player;
 
 
 
+	// Use this for initialization
+	void Start () {
+	
+	}
+	
 	// Update is called once per frame
 	void Update () {
 	
@@ -17,11 +22,11 @@ public class SnappingCrane : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider other){
-		anim.SetBool("SnapA", true);
+		anim.SetBool ("SnapA", true);
 			}
 
 	void OnTriggerExit (Collider other){
-		anim.SetBool("SnapA", false);
+		anim.SetBool ("SnapA", false);
 			}
 
 
