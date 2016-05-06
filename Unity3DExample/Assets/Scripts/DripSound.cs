@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DripSound : MonoBehaviour {
+public class ZombieSound : MonoBehaviour {
 
 
 	private AudioSource source;		// Reference to the animator component.
@@ -15,7 +15,7 @@ public class DripSound : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other){
 
-		source.PlayOneShot(ZSound,vol);
+		source.Play();
 	}
 
 	void OnTriggerExit (Collider other){
