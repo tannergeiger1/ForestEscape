@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public static class Initiate {
-	public static void Fade (string Scene,Color col,float damp){
+public static class Initiate  {
+public static void Fade (string Scene,Color col,float damp){
 		GameObject init = new GameObject ();
 		init.name = "Fader";
 		init.AddComponent<Fader> ();
@@ -10,7 +10,7 @@ public static class Initiate {
 		scr.fadeDamp = damp;
 		scr.fadeScene = Scene;
 		scr.fadeColor = col;
-		scr.Start = true;
+		scr.start = true;
 
 	}
 }
