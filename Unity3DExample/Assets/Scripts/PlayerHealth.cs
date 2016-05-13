@@ -24,7 +24,8 @@ public class PlayerHealth : MonoBehaviour
 		// Setting up the references.
 		anim = GetComponent <Animator> ();
 		playerAudio = GetComponent <AudioSource> ();
-	
+
+		
 		// Set the initial health of the player.
 		currentHealth = startingHealth;
 	}
@@ -77,8 +78,8 @@ public class PlayerHealth : MonoBehaviour
 	{
 		// Set the death flag so this function won't be called again.
 		isDead = true;
-		
-		// Turn off any remaining shooting effects.
+
+
 		
 		// Tell the animator that the player is dead.
 		anim.SetTrigger ("Die");
@@ -87,6 +88,7 @@ public class PlayerHealth : MonoBehaviour
 		playerAudio.clip = deathClip;
 		playerAudio.Play ();
 		
-
+		// Turn off the movement and shooting scripts.
+	
 	}       
 }
