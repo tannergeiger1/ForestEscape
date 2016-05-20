@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: 5cd02e8ec11e08a45aea3e0459022f35
-timeCreated: 1461860194
+timeCreated: 1462548274
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - healthSlider: {fileID: 11495986, guid: 72cc7064bfd440946aeaab907328f706, type: 2}
+  - damageImage: {fileID: 11469624, guid: 4a4862d48b4740d4caad90cce3a911a8, type: 2}
+  - deathClip: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
