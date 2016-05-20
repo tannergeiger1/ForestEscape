@@ -4,7 +4,7 @@ using System.Collections;
 public class Follow : MonoBehaviour {
 	
 	Transform tr_Player;
-	float f_RotSpeed=3.0f,f_MoveSpeed = 1f;
+	float f_RotSpeed=3.0f,f_MoveSpeed = 1.0f;
 	
 	// Use this for initialization
 	void Start () {
