@@ -19,11 +19,9 @@ public class UIManager : MonoBehaviour
 
 
 		if (Input.GetMouseButton (0)) {
-<<<<<<< HEAD
-			pauseControl();
-=======
 
->>>>>>> refs/remotes/origin/master
+			pauseControl();
+
 		}
 
 		//uses the p button to pause and unpause the game
@@ -49,12 +47,10 @@ public class UIManager : MonoBehaviour
 	
 	//controls the pausing of the scene
 	public void pauseControl(){
-<<<<<<< HEAD
+
 
 		Debug.Log ("press");
-
-=======
->>>>>>> refs/remotes/origin/master
+		
 		if(Time.timeScale == 1)
 		{
 			Time.timeScale = 0;
