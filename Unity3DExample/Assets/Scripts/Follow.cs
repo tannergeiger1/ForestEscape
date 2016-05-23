@@ -4,12 +4,7 @@ using System.Collections;
 public class Follow : MonoBehaviour {
 	
 	Transform tr_Player;
-<<<<<<< HEAD
-	float f_RotSpeed=3.0f,f_MoveSpeed = .02f;
-=======
 	float f_RotSpeed=3.0f,f_MoveSpeed = 1.0f;
->>>>>>> refs/remotes/origin/master
-	
 	// Use this for initialization
 	void Start () {
 		
