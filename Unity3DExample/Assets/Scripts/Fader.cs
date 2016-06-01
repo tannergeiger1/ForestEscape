@@ -3,21 +3,15 @@ using System.Collections;
 
 public class Fader : MonoBehaviour {
 
-	public bool start = false;
+	public bool Start = false;
 	public float fadeDamp = 0.0f;
 	public string fadeScene;
 	public float alpha = 0.0f;
 	public Color fadeColor;
 	public bool isFadeIn = false;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-
 	void OnGUI () {
-	 if (!start)
+		if (!Start)
 			return;
 		GUI.color = new Color (GUI.color.r, GUI.color.g, GUI.color.b, alpha);
 
@@ -34,14 +28,13 @@ public class Fader : MonoBehaviour {
 
 		if (alpha >= 1 && !isFadeIn) {
 			Application.LoadLevel (fadeScene);
-			DontDestroyOnLoad(gameObject);
+			DontDestroyOnLoad (gameObject);
 		} else
 		if (alpha <= 0 && isFadeIn) {
-			Destroy(gameObject);
-		}
-
+			Destroy (gameObject);
+		} 
 	}
-	void OnLevelWasLoaded (int level){
+	void OnLEvelWasLoaded (int level){
 		isFadeIn = true;
-}
+	}
 }
