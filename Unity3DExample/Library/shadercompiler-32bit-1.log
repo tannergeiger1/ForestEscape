@@ -10,7 +10,11 @@ Cmd: getPlatforms
 =======
 Base path: C:/Program Files/Unity/Editor/Data
 <<<<<<< HEAD
+<<<<<<< HEAD
 Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-8676
+=======
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-7624
+>>>>>>> parent of 05631fd... fjehfiuewl
 =======
 Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-7624
 >>>>>>> parent of 05631fd... fjehfiuewl
