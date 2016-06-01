@@ -1,13 +1,9 @@
 ﻿#pragma strict
 
-var newScene : String;
-
 function OnTriggerEnter (Col : Collider)
 {
-	if (Col.CompareTag("Player"))
+	if(Col.tag == "Player")
 	{
-	Application.LoadLevel (newScene);
+		Application.LoadLevel ("Level2");	
 	}
-	
 }
-	
