@@ -7,6 +7,6 @@ public class PlayButton : MonoBehaviour {
 		Play();
 	}
 	void Play() {
-		Application.LoadLevel("Scene_1");
+		Application.LoadLevel(1);
 	}
 }
