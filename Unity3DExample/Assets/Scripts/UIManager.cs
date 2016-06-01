@@ -9,26 +9,30 @@ public class UIManager : MonoBehaviour
 	GameObject[] pauseObjects;
 	public GameObject player;
 	private CharacterController controller;
+	
 	// Use this for initialization
 	void Start () {
 		Time.timeScale = 1;
 		pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
 		hidePaused();
 		controller = player.GetComponent<CharacterController> ();
+		
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 		
-		if (Input.GetMouseButton (0)) {
-			pauseControl();
-		}
+		//if (Input.GetMouseButton (0)) {
+		//pauseControl();
+		//}
 		
 		//uses the p button to pause and unpause the game
 		if(Input.GetKeyDown(KeyCode.P))
 			
 		{
+			
 			
 			if(Time.timeScale == 1)
 				
@@ -46,16 +50,21 @@ public class UIManager : MonoBehaviour
 			}
 		}
 	}
+	
 	//Reloads the Level
 	public void Reload(){
-		DontDestroyOnLoad (controller);
-		Application.LoadLevel(Application.loadedLevel);
+		
+		
+		Application.LoadLevel(1);
+		GameObject.Find("Player").GetComponent<FirstPersonController>().enabled = true;
+		
+		
 	}
 	
 	//controls the pausing of the scene
 	public void pauseControl(){
 		
-		Debug.Log ("press");
+		//Debug.Log ("press");
 		
 		if(Time.timeScale == 1)
 		{
@@ -72,8 +81,9 @@ public class UIManager : MonoBehaviour
 	
 	//shows objects with ShowOnPause tag
 	public void showPaused(){
-		DontDestroyOnLoad (controller);
+		
 		foreach(GameObject g in pauseObjects){
+			
 			g.SetActive(true);
 		}
 	}
@@ -82,14 +92,14 @@ public class UIManager : MonoBehaviour
 	//hides objects with ShowOnPause tag
 	public void hidePaused(){
 		foreach(GameObject g in pauseObjects){
+			
 			g.SetActive(false);
 		}
 	}
 	
 	//loads inputted level
 	public void LoadLevel(string level){
-		DontDestroyOnLoad (controller);
+		
 		Application.LoadLevel (level);
 	}
 }
-

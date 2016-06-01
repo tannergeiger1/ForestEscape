@@ -6,7 +6,7 @@ public class WindSound : MonoBehaviour {
 
 	private AudioSource source;		// Reference to the animator component.
 	public AudioClip WSound;
-	public float vol = 0.5f;
+	public float vol = 0.8f;
 
 	void Awake(){
 		source = GetComponent<AudioSource>();
