@@ -1,35 +1,5 @@
-<<<<<<< HEAD
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-5972
-Cmd: getPlatforms
-=======
-<<<<<<< HEAD
-Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-5972
-Cmd: getPlatforms
-=======
-Base path: C:/Program Files/Unity/Editor/Data
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-8676
-=======
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-7624
->>>>>>> parent of 05631fd... fjehfiuewl
-=======
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-7624
->>>>>>> parent of 05631fd... fjehfiuewl
-=======
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-7624
->>>>>>> parent of 05631fd... fjehfiuewl
-=======
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-7624
->>>>>>> parent of 05631fd... fjehfiuewl
-=======
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-7624
->>>>>>> parent of 05631fd... fjehfiuewl
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-3668
 Cmd: getPlatforms
 Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
 
@@ -37,5 +7,3 @@ Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
 Quitting shader compiler process
 
 Crashed!
->>>>>>> origin/master
->>>>>>> refs/remotes/origin/master

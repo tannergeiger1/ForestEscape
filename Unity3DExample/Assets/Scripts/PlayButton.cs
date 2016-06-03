@@ -7,10 +7,6 @@ public class PlayButton : MonoBehaviour {
 		Play();
 	}
 	void Play() {
-<<<<<<< HEAD
-		Application.LoadLevel("Level1");
-=======
-		Application.LoadLevel(1);
->>>>>>> refs/remotes/origin/master
+		Application.LoadLevel (1);
 	}
 }
